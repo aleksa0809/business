@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{36:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return d}));var a=t(0),r=t.n(a);function d(){return r.a.createElement("div",null,r.a.createElement("h1",null,"Lingerie!"),r.a.createElement("img",{src:"https://avatars.mds.yandex.net/get-pdb/1667260/1dc2dfd0-6b4b-492b-ad4e-6e591e101e59/s1200"}))}}}]);
-//# sourceMappingURL=7.bundle.js.map

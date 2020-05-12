@@ -1,8 +1,5 @@
 # Project Anna-Veronica shop
 
-Resulting files are placed in  folder build.
-React application is placed in file app.html and js-bundles.
-
 This is online-shop concept with showcase, catalogue and basket. The project is realized as single page application. It uses the React API. Components of page are made
 as jsx modules. The database is orginized as static structure(array) on client side.
 
@@ -29,12 +26,10 @@ paramethers segment and size there is text "Segment: ..., size: ...". If route e
 text "Our best goods". If data sourse for ShowCase contains no data there is text "Not found".
  
 [x] Choose yourself and install a ready-made javascript package in your project.
-The application uses external library "bulma-toast". 
+The application uses external library "react-toastify". 
 
 [x] The code should contain at least one use of the javascript library.
-It helps to show messanges in dangerouse or 
-unpleasant situation. For example: if there are no records with demanded characteristics in the database the message "We are sorry" appears. This library works in a component ShowCase.
-
+It helps to show messanges: "Added to cart", "Removed from cart" and so on. 
 
 [x]  One of your components should handle and update their State in conjunction with an event in a component further down the tree.
 Component card saves item into local storage with key "basket". Basket value is json string that can be 
