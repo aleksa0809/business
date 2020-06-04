@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{37:function(n,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return a}));var r=e(0),u=e.n(r);function a(){return u.a.createElement("h1",null,"Instagram!")}}}]);
-//# sourceMappingURL=5.bundle.js.map
