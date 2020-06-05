@@ -26,6 +26,9 @@ class App extends Component {
                           <Route path="/contacts">
                             <Contacts />
                           </Route>
+                          <Route path="/api/query/:sector/:size" render={props=> <Showcase {...props.match.params}/>} />
+                          <Route path="/api/query/toplist"       render={props=> <Showcase {...props.match.params} toplist="true"/>} />
+                          <Route path="/api/query/basket"        render={props=> <Showcase {...props.match.params} basket="true" />}/>
                           <Route>
                             <Welcome />
                           </Route>

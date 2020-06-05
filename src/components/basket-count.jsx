@@ -6,11 +6,9 @@ export default function BasketCount() {
   return (
       <AppContextConsumer>
       {context=> 
-          (<ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                  <a className="nav-link av-basket-count" href="#/api/query/basket">Your shopping cart ({context.basketCount} items)</a>
-              </li>
-          </ul>)
+          <li className="nav-item">
+              <a className="nav-link av-basket-count" href="#/api/query/basket">Your shopping cart ({context.counter} items)</a>
+          </li>
       }
       </AppContextConsumer>
   )
